@@ -1,2 +1,49 @@
 
-/* Your CSS Code here. */
+body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+            display: flexbox;
+			background-color: #333;
+			color: #d9dae1;
+			padding: 20px;			
+		}      
+        
+		h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: bisque;
+            text-shadow: #f2f2f2;
+			margin: 0;
+            width:40%
+		}
+        .cont{
+            display: flex;
+            margin-right: 4%;            
+        }
+		span {	            	
+            height: 90vh;
+            background-color: #554;
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			margin-bottom: 10px;
+		}
+		section {
+            border:2px solid white;
+            justify-items: center;			
+            width: 30%;            
+		}
+		#skills {
+			background-color: #f2f2f2;
+		}
+        h2{
+            background-color: #354;
+            color: antiquewhite;
+            padding-left: 10%;
+        }
